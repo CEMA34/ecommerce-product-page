@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <div class="hamburger-div">
+    <div class="open-menu-div">
+      <img class="open-menu" src="./images/icon-menu.svg" alt="">
+      <img class="logo-img" src="./images/logo.svg" alt="">
+    </div>
+    
+    <ul class="hamburger-links">
+      <img class="close-menu" src="./images/icon-close.svg" alt="">
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    
+
+      <div class="nav-icons">
+        <a href="#"><img class="shop-icon" src="./images/icon-cart.svg" alt=""></a>
+        <a href="#"><img class="avatar-img" src="./images/image-avatar.png" alt=""></a>
+      </div>
+
+    </div> -->
+
+  <nav>
+
+    <div class="container">
+
+      <div>
+        <img class="container-logo-img" src="./images/logo.svg" alt="">
+      </div>
+
+      <div class="nav-links">
+
+        <ul>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </div>
+
+      <div>
+
+        <div class="nav-icons">
+          <a href="#"><img class="shop-icon" src="./images/icon-cart.svg" alt=""></a>
+          <a href="#"><img class="avatar-img" src="./images/image-avatar.png" alt=""></a>
+        </div>
+
+      </div>
+
+      <div class="cartDisplay">
+        <h4>Cart</h4>
+        <hr>
+        <p>Your cart is empty</p>
+      </div>
+
+    </div>
+
+    <hr>
+  </nav>
+
+
+  <section class="first-section">
+
+    <div class="first-section-first-div">
+
+      <div class="carousel">
+
+        <div class="carousel-item carousel-item-visible">
+          <img src="images/image-product-1.jpg" alt="" />
+
+        </div>
+  
+        <div class="carousel-item">
+          <img src="images/image-product-2.jpg" alt="" />
+        </div>
+  
+        <div class="carousel-item">
+          <img src="images/image-product-3.jpg" alt="" />
+        </div>
+  
+        <div class="carousel-item">
+          <img src="images/image-product-4.jpg" alt="" />
+        </div>
+  
+        <div class="carousel-actions">
+          <button class="carousel-item-prev" aria-label="Previous page"><img src="./images/icon-previous.svg" alt=""></button>
+          <button class="carousel-item-next" aria-label="Next page"> <img src="./images/icon-next.svg" alt=""> </button>
+        </div>
+    </div>
+
+    <div class="thumbnail-images">
+      <img class="thumbnailImage" src="./images/image-product-1-thumbnail.jpg" alt="">
+      <img class="thumbnailImage" src="./images/image-product-2-thumbnail.jpg" alt="">
+      <img class="thumbnailImage" src="./images/image-product-3-thumbnail.jpg" alt="">
+      <img class="thumbnailImage" src="./images/image-product-4-thumbnail.jpg" alt="">
+    </div>
+    
+    </div>
+
+    <div class="first-section-second-div">
+
+      <p class="first-para">SNEAKER COMPANY</p>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p class="second-para">These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they’ll withstand everything
+        the weather can offer.</p>
+      <p class="full-price">$250.00</p>
+      <div class="discount-div">
+        <p class="third-para">$125.00</p>
+        <p class="discount-para">50%</p>
+      </div>
+
+
+
+      <div class="first-section-third-div">
+
+        <div class="incrementDiv">
+          <button class="decrement" disabled><img src="./images/icon-minus.svg" alt=""></button>
+          <p class="incrementDivPara">0</p>
+          <button class="increment"><img src="./images/icon-plus.svg" alt=""></button>
+        </div>
+        <button class="addToCart" disabled>Add to cart</button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
