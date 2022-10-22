@@ -221,7 +221,6 @@ button:hover{
     border: 3px solid hsl(26, 100%, 55%);
 }
 
-
 .cartDisplay{
     width: 300px;
     height: 200px;
@@ -485,14 +484,13 @@ button:hover{
     }
 
     .cartDisplay{
+        position: absolute;
+        z-index: 1;
         left: 0;
-        top: 0;
-        bottom: 0;
+        top: 270px;
         right: 0;
-        position: relative;
+        bottom:0;
         margin: auto;
-        padding: 2em;
-        margin-top: 1em;
     }
 
     .cartDisplay hr{

@@ -80,21 +80,6 @@ function displayCartHandler() {
 }
 
 
-/*shopIcon.addEventListener("click", () => {
-
-    displayCart = !displayCart
-
-    if (displayCart) {
-        cartDisplay.style.display = "block"
-    }
-
-    else {
-        cartDisplay.style.display = "none"
-    }
-
-    console.log(cartDisplay.style.display)
-
-})*/
 
 
 function hideAllSlides() {
@@ -144,8 +129,3 @@ setInterval(() => {
 prevButton.addEventListener("click", moveToPrevSlide)
 nextButton.addEventListener("click", moveToNextSlide)
 
-
-openHamburgerMenu.addEventListener("click", () => {
-    openMenuDiv.style.display = "none"
-    hamburgerLinks.style.display = "flex"
-})
